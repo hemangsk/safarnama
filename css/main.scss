@@ -3,8 +3,141 @@
 ---
 @charset "utf-8";
 
+body{
+  background-color: #02063a !important;
+  color: white !important;
+}
 
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.main-stuff {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
 
+}
+#footer, .push {
+
+}
+#footer{
+  background-color: #02062a;
+
+}
+.cont{
+  min-height: 800px !important;
+background-color: #02062a;
+}
+
+.social{
+  font-size: 19px;
+left: 100;
+padding: 1em;
+}
+
+.site-title{
+  font-family: "Lato";
+font-weight: 700;
+letter-spacing: 0.5em;
+text-align: center;
+padding-top: 4em;
+padding-bottom: 1em;
+padding-right: 1.5em;
+font-size: 18px;
+
+}
+
+.site-des {
+    font-family: "Lato";
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 12px;
+    padding-right: 2.5em;
+}
+.footer-content{
+  padding: 1em;
+}
+
+.main-title{
+
+  font-size: 32px;
+text-align: center;
+padding: 2em 2em 0.7em;
+font-weight: 100;
+font-family: "Lato";
+
+}
+
+.post-meta{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lato";
+}
+
+.post-content-main{
+  font-family: "Lato";
+font-size: 20px;
+font-weight: 100;
+text-align: justify;
+}
+.stories{
+  font-family: "Lato";
+font-size: 20px;
+letter-spacing: 5px;
+padding: 2em;
+padding-bottom: 0.5em;
+text-align: center;
+}
+.post-box{
+  font-family: "Lato";
+text-transform: uppercase;
+letter-spacing: 2px;
+text-align: center;
+padding: 1em;
+
+}
+
+.post-title{
+  color: lightcyan;
+  font-size: 15px;
+  padding-bottom: 0.5em;
+}
+a{
+  color:inherit !important;
+}
+a:hover{
+  color: inherit;
+  text-decoration: none !important;
+  border-bottom: 1px lightblue dotted;
+}
+.date-post{
+  color: skyblue;
+font-size: 12px;
+
+}
+
+.posted-on{
+  color:white;
+font-size: 9px;
+
+}
+.in{
+font-size: 9px;
+}
+
+.categories-on{
+  color: lightseagreen;
+font-size: 12px;
+}
+
+.postExt{    color: lightcyan;
+    font-size: 11px;
+}
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -47,7 +180,6 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
+
         "syntax-highlighting"
 ;

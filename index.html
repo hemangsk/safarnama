@@ -1,23 +1,37 @@
 ---
 layout: default
 ---
+<div class="stories">
+  STORIES
+</div>
+<div class="post-content">
+  {% for post in site.posts %}
+  <div class="post-box">
+    <div class="post-title">
 
-<div class="home">
+ <a class="post-title" href="{{post.url | prepend:site.baseurl }}" >{{post.title}}</a>
+      <br>
+    </div>
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <span class="posted-on">
+POSTED ON
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+     </span>
+     <span class="date-post"> {{ post.date | date: "%A, %B %-d, %Y" }}</span>
+     <span class="in">
+       in
+     </span>
+     <span class="categories-on">
+       {% for category in post.categories%}
+       {{category}} &nbsp;{% if forloop.last %}{% else %},{% endif %}
+       {% endfor %}
+     </span>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+    <div class="postExt">
+      {{ post.content | strip_html | truncatewords:20}}
+    </div>
+  </div>
+  {% endfor %}
 </div>
