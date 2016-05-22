@@ -2,6 +2,10 @@ body {
   background-color: #02063a !important;
   color: white !important; }
 
+.post-content-main {
+  padding-left: 1em;
+  padding-right: 1em; }
+
 * {
   margin: 0; }
 
@@ -48,19 +52,21 @@ html, body {
   padding: 1em; }
 
 .main-title {
-  font-size: 32px;
+  font-size: 52px;
   text-align: center;
-  padding: 2em 2em 0.7em;
-  font-weight: 100;
-  font-family: "Lato"; }
+  padding-right: 2em;
+  padding-left: 2em;
+  font-family: "Alegreya Sans";
+  padding-bottom: 0.2em;
+  padding-top: 1em; }
 
 .post-meta {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Lato"; }
+  font-family: "Alegreya Sans"; }
 
 .post-content-main {
-  font-family: "Lato";
+  font-family: "Alegreya Sans";
   font-size: 20px;
   font-weight: 100;
   text-align: justify; }
@@ -74,16 +80,15 @@ html, body {
   text-align: center; }
 
 .post-box {
-  font-family: "Lato";
-  text-transform: uppercase;
+  font-family: "Alegreya Sans";
   letter-spacing: 2px;
   text-align: center;
   padding: 1em; }
 
 .post-title {
   color: lightcyan;
-  font-size: 15px;
-  padding-bottom: 0.5em; }
+  font-size: 30px;
+  padding-bottom: 0.2em; }
 
 a {
   color: inherit !important; }
@@ -95,22 +100,57 @@ a:hover {
 
 .date-post {
   color: skyblue;
-  font-size: 12px; }
+  font-size: 14px !important;
+  text-transform: uppercase; }
+
+.posted {
+  font-size: 14px !important; }
 
 .posted-on {
   color: white;
-  font-size: 9px; }
+  font-size: 14px !important;
+  text-transform: uppercase; }
 
 .in {
-  font-size: 9px; }
+  font-size: 9px;
+  text-transform: uppercase; }
 
 .categories-on {
-  color: lightseagreen;
-  font-size: 12px; }
+  color: lightseagreen !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important; }
 
 .postExt {
   color: lightcyan;
-  font-size: 11px; }
+  font-size: 16px;
+  font-weight: 300; }
+
+.quote-of {
+  font-family: "Raleway";
+  font-size: 25px;
+  padding: 0.4em 0.4em 0px;
+  color: lightsalmon; }
+
+.the-day {
+  font-family: "Raleway";
+  font-size: 25px;
+  color: skyblue;
+  padding-bottom: 0px;
+  padding-left: 2em; }
+
+.quote {
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 15px;
+  text-align: justify;
+  padding: 0.3em; }
+
+.quote-author {
+  font-family: "Raleway";
+  text-transform: uppercase;
+  padding: 1em;
+  font-size: 17px;
+  color: powderblue; }
 
 /**
  * Syntax highlighting styles
