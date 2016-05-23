@@ -19,6 +19,15 @@ layout: default
         {{category}} &nbsp;{% if forloop.last %}{% else %},{% endif %}
         {% endfor %}
       </span>
+      {% if page.author %}
+      <br> <br>
+      <div class="written-by">
+        WRITTEN BY
+      </div>
+      <div class="author-name">
+        {{page.author}}
+      </div>
+      {% endif %}
     </div>
       </header>
 

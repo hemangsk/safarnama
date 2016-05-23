@@ -54,8 +54,8 @@ html, body {
 .main-title {
   font-size: 52px;
   text-align: center;
-  padding-right: 2em;
-  padding-left: 2em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
   font-family: "Alegreya Sans";
   padding-bottom: 0.2em;
   padding-top: 1em; }
@@ -125,31 +125,40 @@ a:hover {
   font-size: 16px;
   font-weight: 300; }
 
+.site-title-link {
+  padding-bottom: 0.3em;
+  letter-spacing: 4px; }
+
 .quote-of {
   font-family: "Raleway";
   font-size: 25px;
-  padding: 0.4em 0.4em 0px;
-  color: lightsalmon; }
+  padding-top: 0.5em;
+  float: left;
+  color: cyan; }
 
 .the-day {
   font-family: "Raleway";
   font-size: 25px;
   color: skyblue;
   padding-bottom: 0px;
-  padding-left: 2em; }
+  float: right; }
 
 .quote {
-  font-family: "Open Sans";
+  font-family: "Josefin sans";
   font-weight: 100;
-  font-size: 15px;
+  font-size: 18px;
   text-align: justify;
   padding: 0.3em; }
 
+.author-name {
+  font-size: 24px; }
+
 .quote-author {
-  font-family: "Raleway";
+  font-family: "Open Sans";
   text-transform: uppercase;
   padding: 1em;
-  font-size: 17px;
+  font-weight: 600;
+  font-size: 14px;
   color: powderblue; }
 
 /**

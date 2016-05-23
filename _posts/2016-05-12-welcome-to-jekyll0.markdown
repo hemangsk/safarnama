@@ -1,25 +1,33 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Every Single Sundown"
 date:   2016-05-12 22:01:43 +0530
-categories: jekyll update
+categories: poem
+author: "Hemang Kumar"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Every single sundown, while I am almost my home
+I see tonnes of concretes and sand, building, roads, reveries of foam
+Festivities getting noiseless, Construction getting louder
+Humans getting loftier, Humanity getting smaller
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Leaving you and me wonder in hope, that someday all this will be done
+All roads prepared, all buildings constructed, no dust and cement around, none
+Knock, trance over, for hunger has no end, nowhere it goes, nowhere it ends
+One day someone almighty is to arise, and we will see her as she mends
 
-Jekyll also offers powerful support for code snippets:
+There is no one to come, we know, right?
+Only we are here, to stay persistent and use our own wisdom to solve our plight
+Wisdom becoming larger, its use is becoming teenier
+Hopes becoming trivial, Hopeless becoming higher
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+We shall try, to curb the menace that hovers, on the wonderful future ahead
+There’s a lot to be done, much has been written and said
+When its seminary time in sunrise, you and I, shall gather people and dialogue
+People who do this, People who do that, the book of contamination, to get an epilogue
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+There is no distant place where happiness is kept in that hidden treasure to be sought
+To spend lives, struggling for that secreted pleasure.
+It is all what since childhood we are taught
+Big Myth, You and I know, it’s such a hell of a fatal legend and sick conspiracy, too.
+Happiness is where the home is, where family is, not at some withdrawn dwelling,
+It is where I am with you, you with me.
