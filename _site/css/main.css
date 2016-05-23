@@ -37,7 +37,8 @@ html, body {
   padding-top: 4em;
   padding-bottom: 1em;
   padding-right: 1.5em;
-  font-size: 18px; }
+  font-size: 26px;
+  margin-right: -.5em; }
 
 .site-des {
   font-family: "Lato";
@@ -46,7 +47,8 @@ html, body {
   text-align: center;
   padding-bottom: 1em;
   font-size: 12px;
-  padding-right: 2.5em; }
+  padding-right: 2.5em;
+  margin-right: -0.5em; }
 
 .footer-content {
   padding: 1em; }
