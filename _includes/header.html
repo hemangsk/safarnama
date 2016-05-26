@@ -1,15 +1,26 @@
 
 
-    <div class="row">
+
       <div class="site-title">
     <a class="site-title-link" href="{{"/" | prepend:site.baseurl}}">    {{site.title}}</a>
       </div>
-    </div>
-    <div class="row">
+
+
       <div class="site-des">
     <a class="site-title-link" href="{{"/" | prepend:site.baseurl}}">       {{site.description}}</a>
       </div>
-    </div>
-    <div class="row">
 
-    </div>
+
+      <div class="navigation">
+        {% for pg in site.pages %}
+
+        {% if pg.layout== 'page' %}
+        {% if pg.title %}
+        <div class="nav-page">
+          <a class="nav-links" href="{{pg.permalink | prepend: site.baseurl }}">{{pg.title}}</a>
+        </div>
+        <!--<hr Width="100%">-->
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+</div>

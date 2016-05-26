@@ -159,6 +159,33 @@ a:hover {
   font-size: 14px;
   color: powderblue; }
 
+.navigation {
+  text-align: center;
+  padding-top: 6em;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  color: lightgray; }
+
+.nav-page {
+  padding: 1em;
+  letter-spacing: 0.3em; }
+
+.nav-links {
+  padding-bottom: 0.5em; }
+
+code {
+  border-radius: 0px !important; }
+
+.sname {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 5px; }
+
+.sname-main {
+  letter-spacing: 3px; }
+
 /**
  * Syntax highlighting styles
  */
