@@ -195,7 +195,7 @@ padding-top: 6em;
 text-transform: uppercase;
 font-family: "Lato";
 font-weight: 700;
-font-size: 16px;
+font-size: 12px;
 color: lightgray;
 }
 .nav-page{
@@ -218,6 +218,15 @@ letter-spacing: 5px;
 
 .sname-main{
   letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 400px) {
+    .navigation {
+        font-size: 10px;
+    }
+    .nav-links{
+      padding-bottom: 0.2em;
+    }
 }
 // Our variables
 $base-font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;

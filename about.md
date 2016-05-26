@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="post-content">
     <h2 class="sname-main">SAFARNAMA</h2>
-<p>Minimal, Free spirited, Liberal Jekyll theme<br />for sharing your awesome ideas.</p>
+<p>Minimal, Free spirited, Uncluttered Jekyll theme<br />for sharing your awesome stories.</p>
 <p><br /></p>
 <center><div class="man-title">
   UP AND RUNNING WITH <span class="sname">SAFARNAMA</span>
