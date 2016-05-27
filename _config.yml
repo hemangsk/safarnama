@@ -10,7 +10,7 @@ title: SAFARNAMA
 email: your-email@domain.com
 description: STORIES ON THE MOVE
 
-baseurl: "/safarnama" #e.g. /safarnama, /blog. Dont forget the '/'.
+baseurl: "" #e.g. /safarnama, /blog. Dont forget the '/'.
 url: "http://hemangsk.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
