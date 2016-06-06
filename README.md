@@ -11,7 +11,7 @@
 - Write the Front Matter and content in the file.
     ```
           ---
-          layout: post | default | page
+          layout: post
           title:  String Post Title
           date:   Time Stamp
           categories: String | Array of Strings Category / Categories 
