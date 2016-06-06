@@ -46,7 +46,7 @@
           layout: page
           title: String Title of the webpage
           permalink: / String / Permalink for the webpage
-          tagline: String Optional DevJournal Feature : Tagline for the page
+          tagline: String Optional Feature : Tagline for the page
           ---
 ```      
 ```
